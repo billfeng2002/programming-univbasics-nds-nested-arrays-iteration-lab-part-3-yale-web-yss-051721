@@ -7,6 +7,7 @@ def join_nested_strings(src)
     for value in src{
       if(value.class == String)
         newstr+=value
+      end
     }
   }
   
