@@ -3,13 +3,13 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   newstr=""
   
-  for array in src {
-    for value in src{
+  for array in src do
+    for value in src do
       if(value.class == String)
         newstr+=value
       end
-    }
-  }
+    end
+  end
   
   
   newstr
