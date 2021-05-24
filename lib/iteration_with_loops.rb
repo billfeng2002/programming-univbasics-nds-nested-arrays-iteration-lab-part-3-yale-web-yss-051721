@@ -14,4 +14,4 @@ def join_nested_strings(src)
   newstr
 end
 
-join_nested_strings([["adfdf", 2], [4,"2wldef"]])
+p join_nested_strings([["adfdf", 2], [4,"2wldef"]])
