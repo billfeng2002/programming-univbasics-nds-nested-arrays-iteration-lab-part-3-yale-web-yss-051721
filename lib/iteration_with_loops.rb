@@ -6,6 +6,7 @@ def join_nested_strings(src)
   for array in src do
     for value in src do
       if(value.class == String)
+        puts "caught"
         newstr+=value
       end
     end
